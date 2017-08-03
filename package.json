@@ -1,0 +1,33 @@
+{
+  "name": "vybor",
+  "version": "0.1.2",
+  "description": "Function to choose. Like `switch`, but you don't need an IIFE",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dist": "babel src/ -d dist/",
+    "test": "jest",
+    "prepare": "npm test && npm run dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/batata-frita/vybor.git"
+  },
+  "keywords": [],
+  "constributors": [
+    "Kir Belevich <kir@belevi.ch> (https://github.com/deepsweet)",
+    "Xavier Via <fernando.via@gmail.com> (http://github.com/xaviervia)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/batata-frita/vybor/issues"
+  },
+  "homepage": "https://github.com/batata-frita/vybor#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "jest": "^20.0.4",
+    "babel-preset-env": "^1.6.0"
+  }
+}
