@@ -1,6 +1,6 @@
 {
   "name": "vybor",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Function to choose comparing with a value. Like `switch`, but you don't need an IIFE",
   "main": "dist/index.js",
   "files": [
