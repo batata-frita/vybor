@@ -1,7 +1,7 @@
 {
   "name": "vybor",
-  "version": "0.1.2",
-  "description": "Function to choose. Like `switch`, but you don't need an IIFE",
+  "version": "0.1.0",
+  "description": "Function to choose comparing with a value. Like `switch`, but you don't need an IIFE",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -27,7 +27,10 @@
   "homepage": "https://github.com/batata-frita/vybor#readme",
   "devDependencies": {
     "babel-cli": "^6.24.1",
-    "jest": "^20.0.4",
-    "babel-preset-env": "^1.6.0"
+    "babel-preset-env": "^1.6.0",
+    "jest": "^20.0.4"
+  },
+  "dependencies": {
+    "elegir": "^0.1.2"
   }
 }

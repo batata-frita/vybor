@@ -17,4 +17,12 @@ describe('выбор', () => {
       'three', 3
     ), undefined)
   })
+
+  it('returns the fallback if there is fallback and nothing is matched', () => {
+    equal(выбор('four', 'fallback')(
+      'one', 1,
+      'two', 2,
+      'three', 3
+    ), 'fallback')
+  })
 })

@@ -1,11 +1,8 @@
-const выбор = (...args) => {
-  if (args.length > 0) {
-    if (args[0] === true) {
-      return args[1]
-    }
+import elegir from 'elegir'
 
-    return выбор(...args.slice(2))
-  }
+const vybor = (y, initial) => (...args) => {
+  const selected = elegir(...args.map((x, i) => i % 2 === 0 ? x === y : x))
+  return selected !== undefined ? selected : initial
 }
 
-export default выбор
+export default vybor
